@@ -1,7 +1,7 @@
 <Configuration ID="569bb78b-8313-4e40-84eb-686685a15eec">
   <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
     <Product ID="ProPlus2021Volume" PIDKEY="FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH">
-      <Language ID="es-es" />
+      <Language ID="es-es" /> <!--Replace es-es with your language (i.e.: en-us for American English-->
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="OneDrive" />
       <ExcludeApp ID="OneNote" />
