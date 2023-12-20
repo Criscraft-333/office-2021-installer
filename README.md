@@ -10,7 +10,7 @@ This tool helps you to uninstall your previous Office Version (thanks to this [t
 3. Congrats! You just got the installer in your local computer.
 
 ## What's the file order?
-You need to execute `UninstallO16.cmd` (as admin) first to get rid of your current Office. Then, open a CMD (as admin) and execute:
+You need to execute `UninstallO16.cmd` (as admin) first to get rid of your current Office (accept EULA, then 2, enter, 3, enter, 4 and enter). Then, open a CMD (as admin) and execute:
 ```cmd
 cd install-office
 setup /download configuration.xml
