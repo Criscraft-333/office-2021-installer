@@ -6,7 +6,7 @@ This tool helps you to uninstall your previous Office Version (thanks to this [t
 
 ## How can I use this?
 1. Ensure you have Git installed in your computer (must be Windows).
-2. Open CMD (as admin or as user) and write the following: `git clone https://github.com/Criscraft-333/office-2021-installer.git`
+2. Open CMD (as admin or as user) and write the following: `git clone https://github.com/Criscraft-333/office-2021-installer.git install-office`
 3. Congrats! You just got the installer in your local computer.
 
 ## What's the file order?
