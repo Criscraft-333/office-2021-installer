@@ -17,10 +17,10 @@ echo Before answering the question, navigate through these two routes to find th
 choice /c YN /n /m "Did you do a 32-bits Office installation? (Y, N)"
 if errorlevel 2 ( 
     echo "Commencing 64-bits Office activation..."
-    cd /d %ProgramFiles%\Microsoft Office\Office16
+    cd /d "%ProgramFiles%\Microsoft Office\Office16"
 ) else if errorlevel 1 (
     echo "Commencing 32-bits Office activation..."
-    cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
+    cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16"
 )
 
 for /f %x in ('dir /b ..\root\Licenses16\proplus2021vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
