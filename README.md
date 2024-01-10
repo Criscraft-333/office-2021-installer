@@ -18,4 +18,4 @@ setup /configure configuration.xml
 ```
 
 ## I installed Office, but I can't activate it. 
-No worries! If you look closely, there is a new file called `1click.cmd`. Right-click the file, then [Run as administrator]. Make sure you run it as admin, otherwise, you won't be able   to activate Office. You just need to answer the question (in this case, answer No, this installation is a 64-bits one), and the file will do everything for you. 
+No worries! If you look closely, there is a new file called `ActivateO21.cmd`. Right-click the file, then [Run as administrator]. Make sure you run it as admin, otherwise, you won't be able   to activate Office. You just need to answer the question (in this case, answer No, this installation is a 64-bits one), and the file will do everything for you. 
