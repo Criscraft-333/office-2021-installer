@@ -1,0 +1,17 @@
+<Configuration ID="33a600c8-8369-4a32-88b8-2bb9a36cf897">
+  <Add OfficeClientEdition="64" Channel="CurrentPreview">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="es-es" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
